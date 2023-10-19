@@ -1,0 +1,10 @@
+# Full Check Rest Api
+#1. First dowload folder and import all required module -> npm i
+#2. then start Server -> npm start or node index.js
+#3. then you can check api in postman or thunderclient or any other apis request check software
+#4. their are 4 apis -> POST,PUT,DELETE,GET
+#5. API URL-> http://localhost:3000/data
+#6. POST api-> body->{ name:"hey"}  -> name is required
+#7. GET api Same API URL as mention 5th point just send get request
+#8. for DELETE api url-> http://localhost:3000/data/:id   -> send id which you want to delete from database
+#9. for Put api url->http://localhost:3000/data/:id  -> send id which you want to update from database and also body ->{ name:"hey"}  -> name is required
